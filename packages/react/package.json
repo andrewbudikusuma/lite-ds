@@ -1,0 +1,13 @@
+{
+  "name": "@lite-ds/react",
+  "packageManager": "yarn@3.5.1",
+  "dependencies": {
+    "@lite-ds/foundation": "workspace:^"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "4.7.2"
+  }
+}

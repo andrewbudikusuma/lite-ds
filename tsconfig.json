@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "declaration": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "module": "ESNext",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@lite-ds/*": [
+        "packages/*/lib"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.test.*"
+  ],
+}

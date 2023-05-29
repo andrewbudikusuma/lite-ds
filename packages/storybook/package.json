@@ -1,0 +1,12 @@
+{
+  "name": "@lite-ds/storybook",
+  "packageManager": "yarn@3.5.1",
+  "private": true,
+  "dependencies": {
+    "@lite-ds/foundation": "workspace:^",
+    "@lite-ds/react": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "4.7.2"
+  }
+}

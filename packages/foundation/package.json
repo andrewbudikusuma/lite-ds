@@ -1,0 +1,7 @@
+{
+  "name": "@lite-ds/foundation",
+  "packageManager": "yarn@3.5.1",
+  "devDependencies": {
+    "typescript": "4.7.2"
+  }
+}
