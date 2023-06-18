@@ -2,6 +2,13 @@
   "name": "@lite-ds/foundation",
   "packageManager": "yarn@3.5.1",
   "devDependencies": {
+    "style-dictionary": "^3.8.0",
     "typescript": "4.7.2"
+  },
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build-tokens": "style-dictionary build --config sd.config.js",
+    "build": "yarn build-tokens && tsc"
   }
 }
